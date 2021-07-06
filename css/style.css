@@ -391,6 +391,7 @@ span.round::before {
     cursor: pointer;
     box-shadow: 0 0.15rem 0.25rem 0 rgb(0 0 0 / 5%);
     border: 1px solid rgba(131, 95, 95, 0.2);
+    appearance: none;
     transition: box-shadow 0.2s ease;
 }
 
