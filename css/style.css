@@ -158,13 +158,13 @@ span.round::before {
 
 @media screen and (max-width: 645px) {
 
-    #header .header--logo .header--img {
+    /* #header .header--logo .header--img {
         display: block;
-    }
+    } */
 
-    #header .header--logo span:not(.round) {
+    /* #header .header--logo span:not(.round) {
         display: none;
-    }
+    } */
 
 }
 
@@ -390,7 +390,7 @@ span.round::before {
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0 0.15rem 0.25rem 0 rgb(0 0 0 / 5%);
-    /* box-shadow: 0 0 2px rgba(131, 95, 95, 0.09), 0 0 12px rgba(131, 95, 95, 0.1); */
+    border: 1px solid rgba(131, 95, 95, 0.2);
     transition: box-shadow 0.2s ease;
 }
 
@@ -581,6 +581,7 @@ span.round::before {
 
 #form #submit {
     position: absolute;
+    border: none;
     right: 5px;
     top: 50%;
     transform: translateY(-50%);
